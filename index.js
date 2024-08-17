@@ -98,7 +98,9 @@ client.on('messageCreate', async message => {
     else if (
         message.content == "きもすじ" || 
         message.content == "おおすじ" || 
-        message.content == "たかすじ"
+        message.content == "たかすじ" ||
+        message.content == "あつすじ" ||
+        message.content == "さむすじ" 
     ) {
         message.reply("ぎ");
     }
